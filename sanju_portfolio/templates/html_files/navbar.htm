@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-sm bg-info navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav class="container">
+        <div class="1">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'Home' %}"><button type="submit" name="btnSubmit" class="btn btn-info text-uppercase">Home</button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="2">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'about' %}"><button type="submit" name="btnSubmit" class="btn btn-info text-uppercase">About</button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="3">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><button type="submit" name="btnSubmit" class="btn btn-info mb-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blog&nbsp;&nbsp;&nbsp;&nbsp;</button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="4">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'contact' %}"><button type="submit" name="btnSubmit" class="btn btn-info">Portfolio</button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="5">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'contact' %}"><button type="submit" name="btnSubmit" class="btn btn-info">Contact</button></a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+  </nav>
